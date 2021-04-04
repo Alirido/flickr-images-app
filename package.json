@@ -1,0 +1,36 @@
+{
+  "name": "flickr-images-app",
+  "version": "1.0.0",
+  "description": "An app that shows the public Flickr recently uploaded feed",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run client:test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alirido/flickr-images-app.git"
+  },
+  "keywords": [
+    "react",
+    "flickr",
+    "express"
+  ],
+  "author": "Ali Rido <mohalirido@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alirido/flickr-images-app/issues"
+  },
+  "homepage": "https://github.com/Alirido/flickr-images-app#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "nodemon": "^2.0.7"
+  }
+}
