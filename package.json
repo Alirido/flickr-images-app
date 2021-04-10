@@ -4,7 +4,8 @@
   "description": "An app that shows the public Flickr recently uploaded feed",
   "main": "server/index.js",
   "scripts": {
-    "test": "npm run client:test"
+    "test": "npm run client:test",
+    "start": "node server/index.js"
   },
   "repository": {
     "type": "git",

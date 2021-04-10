@@ -3,6 +3,8 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const helmet = require("helmet");
 
+const routes = require("../app/routes");
+
 const app = express();
 
 // parse requests of content-type - application/json
@@ -13,6 +15,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 // Use helmet
 app.use(helmet());
+
+app.use("/api/v1", routes);
 
 app.get("/api/v1", (req, res) => {
   res.json({
